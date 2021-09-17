@@ -11,9 +11,9 @@ public class VoiceControlRun {
  
         AC carRearCabin = new AC();     //receivers
  
-        CarAutomationVoiceControl kia = new CarAutomationVoiceControl();   //Invoker
+        CarAutomationVoiceControl kia = new CarAutomationVoiceControl();   //Invokers
  
-        kia.setCommand(new HeadlightsOff( carLowBeam ));
+        kia.setCommand(new HeadlightsOn( carLowBeam ));
         kia.voiceControl();
  
         kia.setCommand(new HeadlightsOff( carHighBeam ));

@@ -9,8 +9,8 @@ public class HeadlightsOff implements BatteryOptimization {
 	    }
 	 
 	    public void execute() {
-	        System.out.println("Turning on light.");
-	        light.switchOn();
+	        System.out.println("Turning off light.");
+	        light.switchOff();
 	    }
 
 }
